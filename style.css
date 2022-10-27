@@ -1,0 +1,185 @@
+/* -------- General  ----- */
+
+* {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #000000;;
+}
+
+.background {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.column-container {
+    display: flex;
+}
+
+.content-box-left {
+    width: 50%;
+    background-color: aqua;
+}
+
+.content-box-right {
+    width: 50%;
+    background-color: bisque;
+}
+
+/* -------- Navigation bar ----- */
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.nav-cont .samsung-logo {
+    width: 140px;
+    height: 20.83px;
+}
+.nav-cont .menu-logo {
+    width: 48px;
+    height: 48px;
+    margin-left: 30px;
+}
+
+.nav-cont a {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+
+/* -------- HEADER ----- */
+
+.header-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* max-width: 1920px; */
+    /* max-height: 1080px; */
+}
+
+.header-txt {
+    position: absolute;
+    left:253px;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+
+/* -------- SECTION 1 ----- */
+.section-1-cont .content-box-left {
+    background-image: url("./images/section-1.png");
+    height: 486px;
+    width: 864px;
+}
+
+.section-1-cont .content-box-right {
+    background-image: url("./images/section-2.png");
+    height: 486px;
+    width: 864px;
+}
+
+.section1-txt {
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.section-1-cont .txt1{
+    height: 72px;
+    width: 298px;
+    padding-left: 42px;
+    padding-top: 43px;
+}
+
+.section-1-cont .txt2{
+    height: 72px;
+    width: 298px;
+    padding-right: 30px;
+    padding-top: 34px;
+    display: flex;
+    justify-content: end;
+}
+
+
+/* -------- SECTION 2 ----- */
+
+.section-2-cont {
+    padding-bottom: 30px;
+}
+
+.section-2-cont h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.row-container {
+    display: flex;
+}
+
+.item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.item-box:hover {
+    background-color: #333399;
+}
+
+.item-text {
+    position: absolute;
+    bottom: 45px;
+}
+
+
+/* -------- FOOTER ----- */
+.footer-cont {
+    color: #999999;
+}
+.footer-social-logo {
+    color: #999999;
+}
+
+.fb-logo {
+    height: 20px;
+    width: 9.72px;
+}
+
+.footer-cont .line {
+    width: 18px;
+}
+
+.footer-list {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
