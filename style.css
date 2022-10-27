@@ -77,9 +77,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* max-width: 1920px; */
-    /* max-height: 1080px; */
 }
 
 .header-txt {
@@ -174,11 +171,8 @@ h1 {
     width: 9.72px;
 }
 
-.footer-cont .line {
-    width: 18px;
-}
 
-.footer-list {
+.footer-list a {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
