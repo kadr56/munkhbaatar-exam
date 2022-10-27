@@ -162,6 +162,13 @@ h1 {
 .footer-cont {
     color: #999999;
 }
+
+.footer-cont div {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+}
 .footer-social-logo {
     color: #999999;
 }
@@ -169,6 +176,11 @@ h1 {
 .fb-logo {
     height: 20px;
     width: 9.72px;
+}
+
+.footer-samsung-logo {
+    width: 86px;
+    height: 12.79px;
 }
 
 
